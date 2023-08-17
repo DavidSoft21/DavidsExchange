@@ -24,7 +24,7 @@ export default {
       .getAssets()
       .then((response) => (this.assets = response))
       .catch((error) => console.error(error))
-      .finally(() => (this.isLoading = false));
+     this.isLoading = false
   },
 };
 </script>

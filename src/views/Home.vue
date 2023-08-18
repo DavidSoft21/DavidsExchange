@@ -23,7 +23,6 @@ export default {
     api
       .getAssets()
       .then((response) => (this.assets = response))
-      .catch((error) => console.error(error))
      this.isLoading = false
   },
 };

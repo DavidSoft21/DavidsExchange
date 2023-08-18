@@ -1,7 +1,7 @@
-const api = "https:/api.coincap.io/v2";
+const api = "https://api.coincap.io/v2/";
 
 const getAssets = () => {
-  return fetch("https://api.coincap.io/v2/assets?limit=10")
+  return fetch(`${api}/assets?limit=10`)
     .then((response) => response.json())
     .then((response) => response.data);
 };

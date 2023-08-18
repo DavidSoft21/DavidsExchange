@@ -1,5 +1,5 @@
 <template>
-  <main id="app">
+  <main id="">
     <px-header :links="links" class="" />
     <router-view
       class="container px-5 sm:px-20 py-20 flex justify-center"
